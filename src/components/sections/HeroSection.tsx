@@ -10,7 +10,7 @@ export const HeroSection = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-24 md:pt-20">
       {/* Animated Background */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
@@ -115,7 +115,7 @@ export const HeroSection = () => {
                   <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-2xl"></div>
                   <img 
                     src={profilePhoto} 
-                    alt="Alex Johnson - Full Stack Developer" 
+                    alt="Bellamkonda Thishithasai - Full Stack Developer" 
                     className="relative w-64 sm:w-80 lg:w-96 h-64 sm:h-80 lg:h-96 rounded-2xl object-cover shadow-card transition-all duration-500 group-hover:scale-105 group-hover:shadow-glow"
                   />
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-black/20 to-transparent"></div>

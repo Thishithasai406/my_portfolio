@@ -11,7 +11,7 @@ const certificates = [
     issuer: "AWS Skill Builder",
     date: "dec 2025",
     credentialId: "N/A",
-    description: "Completed a game-based, hands-on cloud training program focused on real-world AWS use cases. Earned the AWS Cloud Practitioner – Trained digital badge upon successful completion. Built and validated cloud solutions using EC2, VPC, IAM, S3, EFS, RDS, DynamoDB, Auto Scaling, and CloudWatch .Gained practical experience in compute, networking, security, storage, and monitoring",
+    description: "Completed a game-based, hands-on cloud training program focused on real-world AWS use cases. Earned the AWS Cloud Practitioner–Trained digital badge upon successful completion. Built and validated cloud solutions using EC2, VPC, IAM, S3, EFS, RDS, DynamoDB, Auto Scaling, and CloudWatch .Gained practical experience in compute, networking, security, storage, and monitoring",
     skills: [ "Cloud Computing","Amazon CloudWatch","Amazon S3","Amazon EC2", "Auto Scaling", "ELB (Elastic Load Balancing)", "mazon VPC",  "EFS (Elastic File System)" , "Amazon Relational Database Service (RDS)", "Amazon DynamoDB", "Identity and Access Management (IAM)"],
     level: "Intermediate",
     certificateUrl: "https://drive.google.com/file/d/1XMXGjXL5DgdLYbOaMFhJEMpXUpbpvW9E/view?usp=drivesdk"

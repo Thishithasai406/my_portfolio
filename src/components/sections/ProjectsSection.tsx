@@ -63,11 +63,6 @@ const projects = [
     "AWS IAM",
     "Python",
     "React.js",
-    "Serverless Architecture",
-    "Event-driven Architecture",
-    "REST APIs",
-    "Git",
-    "GitHub"
   ],
 
   color: "bg-blue-500/10 text-blue-400 border-blue-500/20"

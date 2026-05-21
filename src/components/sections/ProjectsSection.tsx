@@ -7,8 +7,6 @@ import {
   ShoppingCart,
   FileText,
   Bot,
-  Shield,
-  Cloud
 } from "lucide-react";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 
@@ -19,7 +17,7 @@ const projects = [
   id: 1,
   title: "DisasterShield - Real-Time Emergency Response SaaS Platform ",
   description: "A full-stack real-time disaster management and emergency response platform designed to streamline incident reporting, volunteer coordination, and resource allocation through a centralized system with live monitoring and role-based access control.",
-  icon: <Shield className="w-8 h-8" />,
+  icon: <Bot className="w-8 h-8" />,
   status: "Live",
   github: "https://github.com/Thishithasai406/Disaster_Management_System.git",
   demo: "https://disaster-management-system-rust.vercel.app/",
@@ -51,7 +49,7 @@ const projects = [
   description:
     "Designed and implemented a fully serverless real-time data ingestion and analytics platform on AWS to process live JSON events from a React application using AWS Lambda and store data in Amazon S3 as a scalable data lake. Enabled automated schema discovery with AWS Glue and performed real-time SQL-based analytics using Amazon Athena for event monitoring and system insights. Integrated Amazon SNS for real-time notifications, secured services using AWS IAM, and monitored logs and system performance using Amazon CloudWatch.",
 
-  icon: <Cloud className="w-8 h-8" />,
+  icon: <Bot className="w-8 h-8" />,
   status: "Live",
   github: "https://github.com/Thishithasai406/AWS-Data-Confluence.git",
   demo: "https://github.com/Thishithasai406/AWS-Data-Confluence.git",

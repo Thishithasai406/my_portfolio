@@ -8,8 +8,70 @@ const GITHUB_PROFILE = "https://github.com/Thishithasai406";
 
 const projects = [
   {
-    id: 1,
-    title: "SignSpeak",
+    {
+  id: 2,
+  title: "DisasterShield - Real-Time Emergency Response SaaS Platform ",
+  description: "A full-stack real-time disaster management and emergency response platform designed to streamline incident reporting, volunteer coordination, and resource allocation through a centralized system with live monitoring and role-based access control.",
+  icon: <Shield className="w-8 h-8" />,
+  status: "Live",
+  github: "https://github.com/Thishithasai406/Disaster_Management_System.git",
+  demo: "https://disaster-management-system-rust.vercel.app/",
+  technologies: [
+    "FastAPI",
+    "Python",
+    "SQLAlchemy",
+    "PostgreSQL",
+    "JWT Authentication",
+    "WebSockets",
+    "Uvicorn",
+    "React",
+    "Vite",
+    "JavaScript",
+    "Tailwind CSS",
+    "Zustand",
+    "React Query",
+    "Leaflet",
+    "Docker",
+    "REST APIs",
+    "Git",
+    "GitHub"
+  ],
+  color: "bg-red-500/10 text-red-400 border-red-500/20"
+  },
+   {
+  id: 2,
+  title: "AWS Data Confluence — Real-Time Serverless Analytics Platform ",
+  description:
+    "Designed and implemented a fully serverless real-time data ingestion and analytics platform on AWS to process live JSON events from a React application using AWS Lambda and store data in Amazon S3 as a scalable data lake. Enabled automated schema discovery with AWS Glue and performed real-time SQL-based analytics using Amazon Athena for event monitoring and system insights. Integrated Amazon SNS for real-time notifications, secured services using AWS IAM, and monitored logs and system performance using Amazon CloudWatch.",
+
+  icon: <Cloud className="w-8 h-8" />,
+  status: "Live",
+  github: "https://github.com/Thishithasai406/AWS-Data-Confluence.git",
+  demo: "https://github.com/Thishithasai406/AWS-Data-Confluence.git",
+
+  technologies: [
+    "AWS Lambda",
+    "Amazon API Gateway",
+    "Amazon S3",
+    "AWS Glue",
+    "Amazon Athena",
+    "Amazon SNS",
+    "Amazon CloudWatch",
+    "AWS IAM",
+    "Python",
+    "React.js",
+    "Serverless Architecture",
+    "Event-driven Architecture",
+    "REST APIs",
+    "Git",
+    "GitHub"
+  ],
+
+  color: "bg-blue-500/10 text-blue-400 border-blue-500/20"
+  },
+   {
+    id: 3,
+    title: "SignSpeak - Real-Time American Sign Language Recognition System ",
     description: "A real-time American Sign Language (ASL) alphabet recognition system using computer vision and deep learning to convert hand gestures into text and speech.",
     icon: <Bot className="w-8 h-8" />,
     status: "Live",
@@ -29,7 +91,7 @@ const projects = [
     color: "bg-purple-500/10 text-purple-400 border-purple-500/20"
   },
   {
-    id: 2,
+    id: 4,
     title: "IOT-based-smart-monitoring-system",
     description: "IoT-based smart farming web application using Flask and SQLite that provides real-time soil monitoring, auto-irrigation, crop guidance, and interactive analytics for farmers.",
     icon: <ShoppingCart className="w-8 h-8" />,
@@ -48,7 +110,7 @@ const projects = [
     color: "bg-blue-500/10 text-blue-400 border-blue-500/20"
   },
   {
-    id: 3,
+    id: 5,
     title: "Movie Ticket Booking System",
     description: "A full-stack web-based movie ticket booking application that allows users to browse movies, select theaters and show timings, choose seats, and confirm bookings, with an admin panel for managing movies, theaters, users, and bookings.",
     icon: <Bot className="w-8 h-8" />,
@@ -64,7 +126,7 @@ const projects = [
     color: "bg-purple-500/10 text-purple-400 border-purple-500/20"
   },
   {
-    id: 4,
+    id: 6,
     title: "AI-Powered Resume Builder",
     description: "A modern resume-building web application using HTML, CSS, and JavaScript with live preview, multiple templates, AI-powered content suggestions, and PDF export for professional resumes.",
     icon: <FileText className="w-8 h-8" />,
@@ -79,7 +141,7 @@ const projects = [
     color: "bg-green-500/10 text-green-400 border-green-500/20"
   },
   {
-    id: 5,
+    id: 7,
     title: "ExpenseFlow - Modern Expense Tracker",
     description: "A personal expense tracking web application built with vanilla HTML, CSS, and JavaScript, featuring expense management, budget tracking, analytics, and local data persistence.",
     icon: <Bot className="w-8 h-8" />,

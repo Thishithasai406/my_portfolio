@@ -9,7 +9,7 @@ const GITHUB_PROFILE = "https://github.com/Thishithasai406";
 const projects = [
   {
     {
-  id: 2,
+  id: 1,
   title: "DisasterShield - Real-Time Emergency Response SaaS Platform ",
   description: "A full-stack real-time disaster management and emergency response platform designed to streamline incident reporting, volunteer coordination, and resource allocation through a centralized system with live monitoring and role-based access control.",
   icon: <Shield className="w-8 h-8" />,

@@ -7,6 +7,45 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal";
 const certificates = [
    {
     id: 1,
+    title: "AWS Certified Cloud Practitioner",
+    issuer: "AWS",
+    date: "April 2026",
+    credentialId: "12ab78be2c7a40b5bcc00926dd95fd87",
+    description: "Earned the AWS Certified Cloud Practitioner certification by demonstrating foundational knowledge of AWS Cloud concepts, security, architecture, pricing, billing, and core AWS services. Gained practical understanding of cloud infrastructure, compute, storage, networking, monitoring, and identity management services used in real-world cloud environments",
+    skills: [ "Cloud Computing","Amazon CloudWatch","Amazon S3","Amazon EC2", "Auto Scaling", "ELB (Elastic Load Balancing)", "mazon VPC",  "EFS (Elastic File System)" , "Amazon Relational Database Service (RDS)", "Amazon DynamoDB", "Identity and Access Management (IAM)"],
+    level: "Foundational",
+    certificateUrl: "https://drive.google.com/file/d/1E_kXMvSWxwPlBgC0eNPKwRgdRIoSxj-Z/view?usp=drivesdk"
+  },
+
+  {
+  id: 2,
+  title: "SAP Certified - SAP Generative AI Developer",
+  issuer: "SAP",
+  date: "May 2026",
+  credentialId: "N/A",
+  description:
+    "Earned the SAP Certified Generative AI Developer certification by building foundational knowledge in Generative AI, Large Language Models (LLMs), prompt engineering, AI-powered application development, and enterprise AI integration. Gained practical exposure to AI workflows, intelligent automation, conversational AI systems, and responsible AI practices using SAP AI technologies and modern GenAI concepts.",
+  skills: ["Generative AI",
+    "Large Language Models (LLMs)",
+    "Prompt Engineering",
+    "AI Application Development",
+    "Conversational AI",
+    "AI Workflows",
+    "Enterprise AI",
+    "AI Integration",
+    "Natural Language Processing (NLP)",
+    "Responsible AI",
+    "SAP AI",
+    "Machine Learning Fundamentals",
+    "AI Automation"
+  ],
+  level: "Intermediate",
+  certificateUrl:
+    "https://drive.google.com/file/d/1AEOA6xFU0_Has59Pm_Ib28nW9gvBlrk5/view?usp=drivesdk"
+},,
+
+   {
+    id: 3,
     title: "AWS Cloud Quest: Cloud Practitioner – Trained",
     issuer: "AWS Skill Builder",
     date: "dec 2025",
@@ -17,7 +56,7 @@ const certificates = [
     certificateUrl: "https://drive.google.com/file/d/1XMXGjXL5DgdLYbOaMFhJEMpXUpbpvW9E/view?usp=drivesdk"
   },
   {
-    id: 2,
+    id: 4,
     title: "Explore machine learning using python",
     issuer: "infosys Springboard",
     date: "Aug 2025",
@@ -34,7 +73,7 @@ const certificates = [
     certificateUrl: "https://drive.google.com/file/d/13CHd3mo3WU9Vj9InNzHmlv1a5T2qeR5m/view?usp=drivesdk"
   },
   {
-    id: 3,
+    id: 5,
     title: "Fundamentals of Machine Learning and Artificial Intelligence",
     issuer: "AWS Training & Certification",
     date: "Aug 2025",
@@ -50,7 +89,7 @@ const certificates = [
     certificateUrl: "https://drive.google.com/file/d/1EIlpKhNTsWFM4MdaJyjjxSPt898PGC1X/view?usp=drivesdk"
   },
   {
-    id: 4,
+    id: 6,
     title: "HackVyuha’25 – GfG Summer Hackathon 2025",
     issuer: "GeeksforGeeks Student Chapter, SRM University AP",
     date: "may 2025",

@@ -1,7 +1,15 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, ShoppingCart, FileText, Bot } from "lucide-react";
+import {
+  ExternalLink,
+  Github,
+  ShoppingCart,
+  FileText,
+  Bot,
+  Shield,
+  Cloud
+} from "lucide-react";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 
 const GITHUB_PROFILE = "https://github.com/Thishithasai406";

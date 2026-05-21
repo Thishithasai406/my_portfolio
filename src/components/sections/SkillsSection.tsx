@@ -3,62 +3,64 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal";
 
 const skillCategories = [
   {
-    title: "Languages",
-    skills: [
-      { name: "Python", icon: "🐍", color: "bg-yellow-500/10 text-yellow-400" },
-      { name: "Java", icon: "☕", color: "bg-red-500/10 text-red-400" },
-      { name: "JavaScript", icon: "🟨", color: "bg-yellow-400/10 text-yellow-300" },
-      { name: "SQL", icon: "🗄️", color: "bg-blue-500/10 text-blue-400" },
-      { name: "C++", icon: "➕", color: "bg-purple-500/10 text-purple-400" }
-    ]
-  },
-  {
     title: "Frontend",
     skills: [
-      { name: "React.js", icon: "⚛️", color: "bg-blue-500/10 text-blue-400" },
-      { name: "React Native", icon: "📱", color: "bg-cyan-500/10 text-cyan-400" },
-      { name: "HTML", icon: "📄", color: "bg-orange-500/10 text-orange-400" },
-      { name: "CSS", icon: "🎨", color: "bg-blue-600/10 text-blue-500" }
+      { name: "React", icon: "⚛️", color: "bg-blue-500/10 text-blue-400" },
+      { name: "TypeScript", icon: "💠", color: "bg-blue-600/10 text-blue-500" },
+      { name: "Next.js", icon: "⏭️", color: "bg-gray-500/10 text-gray-400" },
+      { name: "Bootstrap", icon: "🅱️", color: "bg-purple-500/10 text-purple-400" },
+      { name: "Tailwind CSS", icon: "🌬️", color: "bg-cyan-500/10 text-cyan-400" },
+      { name: "HTML5", icon: "📄", color: "bg-orange-500/10 text-orange-400" },
+      { name: "CSS3", icon: "🎨", color: "bg-blue-600/10 text-blue-500" },
+      { name: "JavaScript", icon: "🟨", color: "bg-yellow-500/10 text-yellow-400" }
     ]
   },
   {
     title: "Backend",
     skills: [
+      { name: "Node.js", icon: "🟢", color: "bg-green-600/10 text-green-500" },
+      { name: "Python", icon: "🐍", color: "bg-yellow-500/10 text-yellow-400" },
+      { name: "Express.js", icon: "🚀", color: "bg-gray-600/10 text-gray-400" },
       { name: "FastAPI", icon: "⚡", color: "bg-green-500/10 text-green-400" },
-      { name: "Flask", icon: "🌶️", color: "bg-gray-500/10 text-gray-400" },
-      { name: "REST APIs", icon: "🔗", color: "bg-indigo-500/10 text-indigo-400" },
-      { name: "JWT Auth", icon: "🔐", color: "bg-purple-500/10 text-purple-400" },
-      { name: "WebSockets", icon: "📡", color: "bg-pink-500/10 text-pink-400" }
+      { name: "Django", icon: "🎯", color: "bg-green-700/10 text-green-600" },
+      { name: "PHP", icon: "🐘", color: "bg-purple-500/10 text-purple-400" },
+      { name: "C", icon: "🔹", color: "bg-blue-500/10 text-blue-400" },
+      { name: "C++", icon: "➕", color: "bg-purple-500/10 text-purple-400" },
+      { name: "Apex (Salesforce)", icon: "🛠️", color: "bg-blue-600/10 text-blue-500" }
     ]
   },
   {
-    title: "Databases",
+    title: "Database",
     skills: [
       { name: "PostgreSQL", icon: "🐘", color: "bg-blue-600/10 text-blue-500" },
-      { name: "MySQL", icon: "🐬", color: "bg-orange-500/10 text-orange-400" },
-      { name: "SQLite", icon: "📦", color: "bg-gray-500/10 text-gray-400" }
+      { name: "MongoDB", icon: "🍃", color: "bg-green-600/10 text-green-500" },
+      { name: "MySQL", icon: "🗄️", color: "bg-orange-500/10 text-orange-400" },
+      { name: "Redis", icon: "🔴", color: "bg-red-500/10 text-red-400" },
+      { name: "Firebase", icon: "🔥", color: "bg-yellow-600/10 text-yellow-500" },
+      { name: "Salesforce Objects", icon: "📦", color: "bg-blue-500/10 text-blue-400" }
     ]
   },
   {
-    title: "Cloud & Tools",
+    title: "AI/ML",
     skills: [
-      { name: "AWS", icon: "☁️", color: "bg-yellow-500/10 text-yellow-400" },
-      { name: "Docker", icon: "🐳", color: "bg-blue-500/10 text-blue-400" },
-      { name: "Git", icon: "🧾", color: "bg-orange-500/10 text-orange-400" },
-      { name: "GitHub", icon: "🐙", color: "bg-gray-500/10 text-gray-400" },
-      { name: "VS Code", icon: "💻", color: "bg-blue-600/10 text-blue-500" },
-      { name: "Cursor", icon: "✳️", color: "bg-green-500/10 text-green-400" },
-      { name: "Copilot", icon: "🤖", color: "bg-indigo-500/10 text-indigo-400" },
-      { name: "Claude", icon: "🧠", color: "bg-purple-500/10 text-purple-400" }
+      { name: "TensorFlow", icon: "🧠", color: "bg-orange-500/10 text-orange-400" },
+      { name: "PyTorch", icon: "🔥", color: "bg-red-600/10 text-red-500" },
+      { name: "Scikit-learn", icon: "📊", color: "bg-blue-500/10 text-blue-400" },
+      { name: "OpenCV", icon: "👁️", color: "bg-green-600/10 text-green-500" },
+      { name: "Pandas", icon: "🐼", color: "bg-purple-500/10 text-purple-400" },
+      { name: "NLP", icon: "🗣️", color: "bg-yellow-500/10 text-yellow-400" },
+      { name: "Deep Learning", icon: "🤖", color: "bg-red-500/10 text-red-400" }
     ]
   },
   {
-    title: "Core Concepts",
+    title: "Tools & Others",
     skills: [
-      { name: "Data Structures", icon: "🌳", color: "bg-blue-500/10 text-blue-400" },
-      { name: "Backend Development", icon: "🛠️", color: "bg-green-500/10 text-green-400" },
-      { name: "API Integration", icon: "🔌", color: "bg-indigo-500/10 text-indigo-400" },
-      { name: "System Design", icon: "🏗️", color: "bg-purple-500/10 text-purple-400" }
+      { name: "Git", icon: "📝", color: "bg-orange-600/10 text-orange-500" },
+      { name: "AWS", icon: "☁️", color: "bg-yellow-600/10 text-yellow-500" },
+      { name: "Vercel", icon: "⚡", color: "bg-gray-600/10 text-gray-400" },
+      { name: "Figma", icon: "🎨", color: "bg-purple-600/10 text-purple-500" },
+      { name: "VS Code", icon: "🖥️", color: "bg-blue-500/10 text-blue-400" },
+      { name: "Jupyter Notebook", icon: "📓", color: "bg-orange-500/10 text-orange-400" }
     ]
   }
 ];
@@ -74,7 +76,7 @@ export const SkillsSection = () => {
               Technical <span className="text-primary">Skills</span>
             </h2>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-              Technologies I use to build scalable systems and real-time applications
+              Technologies and tools I work with
             </p>
           </div>
         </ScrollReveal>
@@ -95,9 +97,9 @@ export const SkillsSection = () => {
                     direction="scale"
                     delay={600 + categoryIndex * 200 + skillIndex * 100}
                   >
-                    <Card className="p-4 lg:p-6 bg-card-gradient border-border/50 hover:border-primary/50 transition-all duration-300 group cursor-pointer hover:scale-105">
+                    <Card className="p-4 lg:p-6 bg-card-gradient border-border/50 hover:border-primary/50 transition-all duration-300 group cursor-pointer hover:scale-105 hover:shadow-glow">
                       <div className="text-center space-y-3">
-                        <div className={`w-12 h-12 lg:w-16 lg:h-16 mx-auto rounded-xl ${skill.color} flex items-center justify-center text-xl lg:text-2xl group-hover:scale-110 transition-transform`}>
+                        <div className={`w-12 h-12 lg:w-16 lg:h-16 mx-auto rounded-xl ${skill.color} flex items-center justify-center text-xl lg:text-2xl group-hover:scale-110 transition-transform duration-300`}>
                           {skill.icon}
                         </div>
                         <div className="text-xs lg:text-sm font-medium group-hover:text-primary transition-colors">

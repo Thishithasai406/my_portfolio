@@ -46,7 +46,7 @@ const projects = [
    {
   id: 2,
   title: "AWS Data Confluence — Real-Time Serverless Analytics Platform ",
-  description:"Built a serverless real-time analytics platform on AWS to process live JSON events.Used AWS Lambda for ingestion and Amazon S3 for scalable data storage.Enabled SQL-based analytics using Amazon Athena with Glue-based schema discovery.Integrated SNS alerts and monitored system performance using CloudWatch and IAM security.",
+  description:"Built a serverless real-time analytics platform on AWS to ingest and process live JSON events using Lambda and store data in S3.Enabled high-performance SQL analytics using Amazon Athena with Glue-based schema discovery for structured insights.Implemented end-to-end monitoring and alerts using CloudWatch and SNS with secure IAM-based access control.",
   icon: <Bot className="w-8 h-8" />,
   status: "Live",
   github: "https://github.com/Thishithasai406/AWS-Data-Confluence.git",
